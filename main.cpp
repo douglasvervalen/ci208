@@ -4,10 +4,10 @@ using namespace std;
 
 int main(){
 double valorA,valorB,valorcpf;
- double n1=1;
+double n1=1;
 
-    cout<<"Digite valor (minimo 5 digitos):";
-    cin>>valorcpf; // valor de exemplo: 12355
+    cout << "Digite valor (minimo 5 digitos): ";
+    cin >> valorcpf; // valor de exemplo: 12355
 
     if((valorcpf/10000)>=n1) /* Verifica se o CPF tem 5 dígitos.
         No valor de exemplo o CPF fica como: 1,2355, depois da divisão por 10000, oque é maior ou igual a 1.*/
@@ -27,11 +27,11 @@ double valorA,valorB,valorcpf;
 
        if(valorA==0) // Verifica se o valor de A é = 0.
        {
-           cout<<"Não eh possivel dividir por zero."<<endl;
+           cout << "Não eh possivel dividir por zero." << endl;
        }
          if(bint%aint==0) // Verifica se B é divisível por A.
     {
-        cout <<"Numero fornecido aceito: " << (bint / aint) << endl;
+        cout << "Numero fornecido aceito: " << (bint / aint) << endl;
     }
 
     else // No caso de B não ser divisível por A
@@ -42,7 +42,5 @@ double valorA,valorB,valorcpf;
 
     else // No caso do CPF não ter 5 dígitos
 
-    cout<<"entrada invalida";
-
-
+    cout<< "entrada invalida" << endl;
 }
