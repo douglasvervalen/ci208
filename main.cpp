@@ -14,7 +14,7 @@ double n1=1;
     {
        valorB=valorcpf/100; // Separa os primeiros dígitos como a parte inteira. No valor de exemplo o CPF fica como: 123,55.
 
-       valorA=(valorB-floor(valorB))* 100; /* Separa os dois últimos dígitos como a parte decimal.
+       valorA=(valorB-floor(valorB))* 100; /* Separa os dois últimos dígitos e passa para a parte inteira.
        No valor de exemplo o CPF depois da primeira operação fica como: 0,55, e então multiplicando por 100 fica: 55 */
 
        int bint=floor(valorB); /* Converte o valor de B para um número inteiro.
