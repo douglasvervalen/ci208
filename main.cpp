@@ -10,7 +10,7 @@ double n1=1;
     cin >> valorcpf; // valor de exemplo: 12355
 
     if((valorcpf/10000)>=n1) /* Verifica se o CPF tem 5 dígitos.
-        No valor de exemplo o CPF fica como: 1,2355, depois da divisão por 10000, oque é maior ou igual a 1.*/
+        No valor de exemplo o CPF fica como: 1,2355 depois da divisão por 10000, oque é maior ou igual a 1.*/
     {
        valorB=valorcpf/100; // Separa os primeiros dígitos como a parte inteira. No valor de exemplo o CPF fica como: 123,55.
 
