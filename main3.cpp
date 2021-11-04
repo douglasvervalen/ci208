@@ -57,23 +57,3 @@ cout << n1max << " " << n2max << " eh o maior intervalo: " << valormax << endl;
 
 return 0;
 }
-
-Digite sequencia de 2 inteiros:
-Quantidade ordem crescente: 4
-
-
-
-
-Digite sequencia de 2 inteiros:
-Quantidade ordem crescente: 4
-Qantidade ordem decrescente: 2
-
-Quantidade ordem decrescente: 2
-
-Quantidade ordem neutra: 1
-
-Quantidade ordem neutra: 1
-
-3 6 eh o maior intervalo: 3
-
-3 6 eh o maior intervalo: 3
