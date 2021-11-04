@@ -39,9 +39,8 @@ else{
 
 long long temRepeticoes(long long codigo, int & dezenarept, int & nrept){
 
-int dezena1, dezena2, cont, ndigitos, ndezenas, dezenacont, temrept, i, j;
+int dezena1, dezena2, cont, ndezenas , temrept, i, j;
 
-ndigitos = numDigitos(codigo);
 ndezenas = numDezenas(codigo);
 
 temrept = 0;
@@ -55,7 +54,6 @@ while(i < ndezenas){
             dezena1 = dezena(codigo, i);
             dezena2 = dezena(codigo, j);
             if (dezena1 == dezena2){
-                temrept++;
                 cont++;
                 if(nrept < cont){
                     nrept = cont;
@@ -72,8 +70,8 @@ while(i < ndezenas){
 
 
 
-if (temrept==0){
-    return temrept;
+if (nrept==0){
+    return nrept;
 }
 else{
     return 1;
