@@ -6,10 +6,9 @@ using namespace std;
 #define N 7
 
 int somaVizinhanca(int matriz[][N], int linha, int coluna, int r){
-int matrizs[M][N];
+
 int soma = 0;
-int i = linha;
-int j = coluna;
+
 
     for(int k = 1; k <= r; k++){
         //cout << i << " " << j << endl;
